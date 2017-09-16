@@ -1,0 +1,16 @@
+<div class="fit layout vertical">
+  <app-header class="layout horizontal center justified"></app-header>
+
+  <div id="chat" class="card flex layout vertical" style="overflow-y: hidden;">
+    <div class="msg-container flex layout vertical" style="overflow-y: auto;">
+    </div>
+
+    <div id="input-container" class="layout horizontal center">
+      <material-input class="flex" floatingLabel label="Message..."></material-input>
+      <material-button>Send</material-button>
+
+      <input #mediaCapture type="file" accept="image/*,capture=camera">
+      <material-button><i class="material-icons">image</i></material-button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+{
+  "messages" : {
+    "-K2ib4H77rj0LYewF7dP" : {
+      "text" : "Hey, can you tell me what the best web dev language is?",
+      "name" : "Anonymous Guru"
+    },
+    "-K2ib5JHRbbL0NrztUfO" : {
+      "text" : "JavaScript, right?",
+      "name" : "Anonymous Noob"
+    },
+    "-K2ib62mjHh34CAUbide" : {
+      "text" : "GTFO! Dart is the way of the warrior.",
+      "name" : "Anonymous Guru"
+    }
+  }
+}

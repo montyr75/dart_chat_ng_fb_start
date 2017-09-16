@@ -1,0 +1,58 @@
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.card {
+  border: 1px blue solid;
+  border-radius: 4px;
+  margin: 20px auto;
+}
+
+#chat {
+  margin-top: 25px;
+  padding-top: 10px;
+  width: 50%;
+}
+
+@media (max-width: 1080px) {
+  #chat {
+    width: 75%;
+  }
+}
+
+@media (max-width: 640px) {
+  #chat {
+    width: 95%;
+  }
+}
+
+.msg-container > :first-child {
+  margin-top: auto !important;
+}
+
+.msg-container > * {
+  flex-shrink: 0;
+}
+
+.message {
+  margin: 4px 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.message-image {
+  max-width: 400px;
+}
+
+#input-container {
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+input[type="file"] {
+  display: none;
+}

@@ -1,0 +1,25 @@
+name: dart_chat_ng_fb
+description: A Dart chat app built with AngularDart.
+version: 0.0.1
+
+environment:
+  sdk: '>=1.24.0 <2.0.0'
+
+dependencies:
+  angular: ^4.0.0
+  angular_components: ^0.6.0
+  firebase: ^4.1.0
+
+dev_dependencies:
+  browser: ^0.10.0
+  dart_to_js_script_rewriter: ^1.0.1
+
+transformers:
+- angular:
+    entry_points:
+      - web/main.dart
+- dart_to_js_script_rewriter
+
+web:
+  compiler:
+    debug: dartdevc

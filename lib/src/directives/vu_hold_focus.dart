@@ -5,9 +5,7 @@ import 'package:angular/angular.dart';
 class VuHoldFocus {
   Element _el;
 
-  VuHoldFocus(ElementRef ref) {
-    _el = ref.nativeElement;
-  }
+  VuHoldFocus(Element this._el);
 
   @HostListener('blur')
   void onBlur() {

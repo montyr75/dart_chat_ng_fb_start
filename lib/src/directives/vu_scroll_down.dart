@@ -10,8 +10,7 @@ class VuScrollDown {
 
   Map<StreamSubscription, bool> loadSubs = {};
 
-  VuScrollDown(ElementRef ref) {
-    _el = ref.nativeElement;
+  VuScrollDown(Element this._el) {
     _mo = new MutationObserver(_mutation);
     _mo.observe(_el, childList: true);
   }
